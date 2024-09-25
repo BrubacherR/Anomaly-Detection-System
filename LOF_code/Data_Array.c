@@ -1,8 +1,8 @@
 #include <stddef.h>   // For size_t
-#include <stdint.h>   // For int32_t
 
 #include "Data_Array.h"
 
-size_t data_size = 100;
 
-int32_t data_array[] = {};
+int data_array[] = {45, 47, 48, 49, 50, 51};
+
+size_t data_size = sizeof(data_array) / sizeof(data_array[0]);

@@ -14,10 +14,9 @@
 #define DATA_ARRAY_H
 
 #include <stddef.h>   // For size_t
-#include <stdint.h>   // For int32_t
 
 // External array storing 32-bit integers for the LOF algorithm
-extern int32_t data_array[];
+extern int data_array[];
 
 // External variable representing the size of the data array
 extern size_t data_size;
