@@ -1,0 +1,29 @@
+# Ignore build output
+Objects/
+Output/
+*.bin
+*.hex
+*.axf
+*.o
+
+# Ignore user settings
+*.user
+*.uvguix.ryanb
+*.svcd
+*.htm
+*.axf
+*.map
+
+# Ignore user-specific files
+*.uvptox
+*.uvopt
+*.uvguix
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+
+# Ignore IDE specific files
+*.vscode/
+*.idea/
